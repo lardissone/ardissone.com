@@ -1,6 +1,6 @@
 /*=== General settings - v1.1 ===*/
 
-html, body { 
+html, body {
 width: 100%;
 height: 100%;
 }
@@ -30,9 +30,9 @@ a:hover {text-decoration: underline;}
 /* the left:50% and margin-left:-480px helps the header to stay centered all the time*/
 div#header{ position: fixed; z-index: 2; background: url(images/bg.gif) repeat-x fixed ; overflow: hidden; left: 50%; margin-left: -480px; }
 /* topBar fonts styling */
-div#topBar div#years ul li, 
+div#topBar div#years ul li,
 div#topBar div#years ul li a,
-div#topBar div#topBarRight h2 { line-height: 52px; text-decoration: none; font-weight: 500; } 
+div#topBar div#topBarRight h2 { line-height: 52px; text-decoration: none; font-weight: 500; }
 
 div#topBar div#years ul li,
 div#topBar div#years ul li a { font-size: 25px; }
@@ -40,9 +40,9 @@ div#topBar div#years ul li a { font-size: 25px; }
 /* Years Nav - Also check ie.css to see the diferent settings for ie7*/
 div#topBar div#years ul li { border-left: 1px solid #3d3d3d; color: #4d4d4d; width: 108px; height: 52px; display: table-cell; text-align: center; }
 div#topBar div#years ul li.lastYear { border-right: 1px solid #3d3d3d;}
-div#topBar div#years ul li a { color: #FFFFFF; } 
-div#topBar div#years ul li a:hover { color: #dedede; } 
-div#topBar div#years ul li a.active { color: #34beee; } 
+div#topBar div#years ul li a { color: #FFFFFF; }
+div#topBar div#years ul li a:hover { color: #dedede; }
+div#topBar div#years ul li a.active { color: #34beee; }
 
 /* Right part of the topBar*/
 div#topBar div#topBarRight h2 { font-size: 30px; color: white; letter-spacing: -1px; margin-left: 40px; }
@@ -95,18 +95,18 @@ div#sidebarContent div#skills ul li:hover div.
 
 /*======  FORMS   ======*/
 div.formWrap { position: absolute; }
-div.formOverlay { z-index: 9; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: #111111;} 
-div.formBox { 
+div.formOverlay { z-index: 9; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: #111111;}
+div.formBox {
 	z-index: 10;
-	position: fixed;  
-	top: 0; 
-	background: white; 
-	width: 350px; 
-	padding: 0 10px 10px 10px; 
+	position: fixed;
+	top: 0;
+	background: white;
+	width: 350px;
+	padding: 0 10px 10px 10px;
 	left: 50%;
 	margin-left: -175px;
 	}
-	
+
 div.formBox .formHeader { background-color: #101010; height: 52px; color: white; line-height: 52px;}
 div.formBox .formHeader h3 { margin-left: 20px; position: relative;}
 div.formBox .formHeader h3 a { color: #f54cab; float: right; position: absolute; top: 0; right: 0; text-decoration: none; border-left: 1px solid #3d3d3d; padding: 0 20px;}
@@ -139,3 +139,27 @@ div.formBox p.formButton { margin: 0; line-height: 35px; border-top-color: #dada
 br.left { clear: left; }
 
 #alogo { margin: 0 auto; width: 60px; height: 60px;}
+
+#note ul {
+	list-style: none;
+}
+
+#note ul li {
+	padding-left: 30px;
+	margin: none;
+	height: 30px;
+}
+
+#note ul li a {
+	line-height: 28px;
+}
+
+#note ul li.email-icon {
+	background: url(images/email.png) no-repeat 0 0 transparent;
+}
+#note ul li.github-icon {
+	background: url(images/github.png) no-repeat 0 0 transparent;
+}
+#note ul li.twitter-icon {
+	background: url(images/twitter.png) no-repeat 0 0 transparent;
+}
